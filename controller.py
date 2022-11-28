@@ -168,7 +168,7 @@ class Controller(QMainWindow, Ui_MainWindow):
 
     def select_channel1(self):
         '''
-        Method allows the user to use the pushbuttons to go to channel 1
+        Method allows the user to use the pushbutton to go to channel 1
         '''
         if self.__status:
             if self.__channel != 1:
@@ -178,7 +178,7 @@ class Controller(QMainWindow, Ui_MainWindow):
 
     def select_channel2(self):
         '''
-        Method allows the user to use the pushbuttons to go to channel 2
+        Method allows the user to use the pushbutton to go to channel 2
         '''
         if self.__status:
             if self.__channel != 2:
@@ -188,7 +188,7 @@ class Controller(QMainWindow, Ui_MainWindow):
 
     def select_channel3(self):
         '''
-        Method allows the user to use the pushbuttons to go to channel 3
+        Method allows the user to use the pushbutton to go to channel 3
         '''
         if self.__status:
             if self.__channel != 3:
